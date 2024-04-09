@@ -7,8 +7,7 @@ public class FirstTest {
 	public void test1() {
 		  System.out.println("This is a test 1");	  }
   
-  @Test
-		
+  @Test	
 		public void test2()
 		{
 	  System.out.println("This is a test 2");	  

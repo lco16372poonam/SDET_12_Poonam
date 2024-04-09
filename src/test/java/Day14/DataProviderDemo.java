@@ -37,7 +37,7 @@ public class DataProviderDemo {
   @AfterClass
   void tearDown() 
  {
-	  //driver.close();
+	  driver.close();
  }
   
   @DataProvider(name = "dp", indices = {0,3})

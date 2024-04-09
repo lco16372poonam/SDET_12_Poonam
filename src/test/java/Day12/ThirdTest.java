@@ -10,16 +10,16 @@ public class ThirdTest {
 	ChromeDriver driver ;
 	
   @Test(priority =1)
-  public void OpenApp() 
+  public void OpenApp() throws InterruptedException 
   {
 	   driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-	  
+		Thread.sleep(3000);	  
   }
   
-  @Test(priority =2)
+  @Test(priority=2)
   public void login()
   {
 		
@@ -28,7 +28,7 @@ public class ThirdTest {
 		 driver.findElement(By.className("oxd-button")).click();
   }
   
-  @Test(priority =3)
+  @Test(priority=3)
   public void CloseApp()
   {
 	  driver.close();

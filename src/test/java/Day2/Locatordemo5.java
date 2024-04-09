@@ -24,6 +24,6 @@ public class Locatordemo5 {
 
 		driver.findElement(RelativeLocator.with(By.tagName("input")).above(password)).sendKeys("Admin");
 
-		https://automationbookstore.dev/
+		//https://automationbookstore.dev/
 	}
 }

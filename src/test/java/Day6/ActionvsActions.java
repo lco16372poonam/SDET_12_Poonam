@@ -15,7 +15,7 @@ public class ActionvsActions {
 		
 		driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html");
 		
-		Action steps
+		//Action steps
 		
 
 	}

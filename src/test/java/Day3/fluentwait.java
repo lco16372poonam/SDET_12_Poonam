@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 public class fluentwait {
 
 	public static void main(String[] args) {
-ChromeDriver driver = new  ChromeDriver();
+/*ChromeDriver driver = new  ChromeDriver();
 		
 		driver.manage().window().maximize();
 		
@@ -27,7 +27,7 @@ ChromeDriver driver = new  ChromeDriver();
 		 driver.findElement(By.xpath("//button[@type='submit']")).click();
 		 
 		 mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@type='submit']")));
-		 driver.findElement(By.xpath("//button[@type='submit']")).click();
+		 driver.findElement(By.xpath("//button[@type='submit']")).click();*/
 		
 
 	}
